@@ -21,8 +21,8 @@ El mismo constaba en realizar un E-commerce completamente funcional, incluyendo 
 ---
 **Link a la Web**
 
-[Enlace: (https://arizonashopp.netlify.app/) ]
+https://arizonashopp.netlify.app/
 
 ---
-***Visualización del Ecommerce
-![(Animation.gif)]
+***Visualización del Ecommerce***
+![("C:\Users\trini\Desktop\Animation.gif")]
