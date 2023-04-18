@@ -25,5 +25,4 @@ https://arizonashopp.netlify.app/
 
 ---
 ***Visualización del Ecommerce***
-
-![(C:\Users\trini\Desktop\Animation.gif)]
+![Animation](https://user-images.githubusercontent.com/114590549/232751000-0e6afcec-0a4a-45cd-a97d-203c31862198.gif)
