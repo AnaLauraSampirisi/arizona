@@ -16,7 +16,7 @@ const Cart = () =>{
         return (
             <>
             <div className="cart_">
-                <h2 className="empty">No hay productos en el carrito</h2>
+                <h2 className='empty'>No hay productos en el carrito</h2>
                 <Link to={"/"}>
                     <Button className="back">Volver al Inicio</Button>
                 </Link>
@@ -31,7 +31,7 @@ const Cart = () =>{
             {cart.map((compra) => (
             <div key={compra.id}>
 
-        <Container className="tabla">
+        <Container className='tabla'>
         <Table striped bordered hover size="sm">
             <thead>
                 <tr>
@@ -47,7 +47,7 @@ const Cart = () =>{
                     <td>{compra.nombre}</td>
                     <td>{compra.precio}</td>
                     <td>{compra.cantidad}</td>
-                    <td><Button className="borra" onClick={() => removeItem(compra.id)}> 🗑️ </Button></td>
+                    <td><Button className='borra' onClick={() => removeItem(compra.id)}> 🗑️ </Button></td>
                 </tr>
             </tbody>
         </Table>
@@ -57,7 +57,7 @@ const Cart = () =>{
                 </div>
 
             ))}
-            <span className="total">Total a pagar: ${cartTotal()}</span>
+            <span className='total'>Total a pagar: ${cartTotal()}</span>
 
             <Form/>
 
