@@ -1,0 +1,52 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#titulo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: right;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.barra{
+    background-color: rgb(253, 217, 229);
+    width: 100%;
+}
+
+.me-auto{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.section-topbar {
+    background-color: #dfdd6c;
+    color: #fff;
+    fill: #fff;
+}
+
+.section-topbar {
+    padding: 4px 0;
+    line-height: 20px;
+}
+
+.carro {
+    position: absolute;
+    top: 5px;
+    right: 0
+}
+
+.container{
+    width: 280px !important;
+    justify-content: start !important; 
+    margin: 0 !important;
+}
