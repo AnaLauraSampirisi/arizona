@@ -11,19 +11,18 @@ function Footer (){
         <div className="info">
 
         <div className="redes">
-            <h4>Nuestras Redes</h4>
+                <br />
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
         </div>
 
         <div className="contacto">
-            <h4>Contacto</h4>
-                <p>Por cualquier consulta escribinos a: ArizonaShopp@mail.com</p>
+                <br />
+                <p>arizonashopp@gmail.com</p>
         </div>
 
         <div className="pagos">
-            <h4>Medios de Pago</h4>
             <img className="pago" src={medios} />
         </div>
 

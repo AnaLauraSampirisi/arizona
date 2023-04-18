@@ -10,25 +10,16 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <>
-    <div className='container-fluid'>
-      <div className='row'>
-        <div className='col text-left d-none d-md-block'></div>
-        <div className='col col-md-6 font-small text-center'> 3 y 6 CUOTAS SIN INTERÉS</div>
-        <div className='col text-right d-none d-md-block'></div>
-      </div>
-    </div>
-
   <Navbar collapseOnSelect expand="lg" className="barra">
     <Container>
       <Navbar.Brand as={NavLink} to='/'>
         <img
           alt=""
           src= {logo}
-          width="30"
-          height="30"
+          width="100"
+          height="100"
           className="d-inline-block align-top"
         />{' '}
-          Arizona Shopp
       </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -25,7 +25,8 @@
 .me-auto{
     display: flex;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .section-topbar {
@@ -41,7 +42,7 @@
 
 .carro {
     position: absolute;
-    top: 5px;
+    top: 35px;
     right: 0
 }
 

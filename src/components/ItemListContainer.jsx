@@ -42,6 +42,8 @@ const ItemListContainer = ({greeting}) => {
     {(window.location.pathname === "/") &&
 
     <Container className='caro'>
+      <div class="row justify-content-center">
+      <div class="col-sm-8">
       <Carousel>
         <Carousel.Item>
           <img 
@@ -64,6 +66,8 @@ const ItemListContainer = ({greeting}) => {
           alt="Third slide" />
         </Carousel.Item>
       </Carousel>
+      </div>
+      </div>
     </Container>}
 
     <h2 className='offer'>Productos</h2>
